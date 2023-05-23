@@ -10,6 +10,7 @@ body {
     font-family: 'roboto slab', sans-serif;
     font-weight: 300;
     color: #f2f2f2;
+    width: 100%;
 }
 
 h1 {
@@ -22,4 +23,29 @@ h1 {
         text-align: center;
         width: 100%;
         font-size: 280%;
+}
+
+#navigation {
+    font-size: 110%;
+    text-align: center;
+}
+
+#navigation li {
+    display: inline-block;
+}
+
+#navigation a {
+    text-decoration: none;
+    width: 250px;
+    display: block;
+    padding: 15px;
+    font-size: 25px;
+    font-family: benchnine, sans-serif;
+    letter-spacing: 3px;
+    color: #333333;
+}
+
+#navigation a:hover {
+    color:#c68c53;
+    transition: 0.4s;
 }
