@@ -9,4 +9,17 @@
 body {
     font-family: 'roboto slab', sans-serif;
     font-weight: 300;
+    color: #f2f2f2;
+}
+
+h1 {
+    font-family: benchnine, sans-serif;
+    text-transform: uppercase;
+}
+
+#logo {
+        color: #333333;
+        text-align: center;
+        width: 100%;
+        font-size: 280%;
 }
