@@ -18,11 +18,15 @@ h1 {
     text-transform: uppercase;
 }
 
+header {
+    background-color: #c39b7ed1;
+}
+
 #logo {
     color: #333333;
     text-align: center;
     width: 100%;
-    font-size: 280%;
+    font-size: 200%;
 }
 
 #navigation {
@@ -43,6 +47,7 @@ h1 {
     font-family: benchnine, sans-serif;
     letter-spacing: 3px;
     color: #333333;
+
 }
 
 #navigation a:hover {
@@ -55,4 +60,20 @@ h1 {
     height: 800px;
     background: url(../../assets/Images/jared-rice-8w7b4SdhOgw-unsplash.jpg) no-repeat center center;
     background-size: cover;
+    position: relative;
+}
+
+#about {
+    width: 300px;
+    height: 550px;
+
+    padding-top: 30px;
+    padding-left: 10px;
+
+    background-color: rgb(195, 155, 126, .1);
+
+    top: 40px;
+    right: 300px;
+
+    position: absolute;
 }
