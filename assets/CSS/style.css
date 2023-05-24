@@ -18,6 +18,19 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+    font-size: 150%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h2,
+h3,
+h4 {
+    font-family: pangolin, sans-serif;
+    text-transform: uppercase;
+}
+
 header {
     background-color: #c39b7ed1;
     height: 150px;
@@ -126,10 +139,10 @@ footer {
 #mind-background div {
     background-color: rgba(0, 0, 0, 0.6);
     width: 33.33%;
-    height: 800px;
+    height: 900px;
     float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
+    padding: 30px;
+    text-align: left;
     border: 2px solid #c39b7ed1;
     box-sizing: border-box;
 }
@@ -146,10 +159,10 @@ footer {
 #body-background div {
     background-color: rgba(0, 0, 0, 0.6);
     width: 33.33%;
-    height: 800px;
+    height: 900px;
     float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
+    padding: 30px 20px 20px 30px;
+    text-align: left;
     border: 2px solid #c39b7ed1;
     box-sizing: border-box;
 }
@@ -166,10 +179,10 @@ footer {
 #soul-background div {
     background-color: rgba(0, 0, 0, 0.6);
     width: 33.33%;
-    height: 800px;
+    height: 900px;
     float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
+    padding: 30px 20px 20px 30px;
+    text-align: left;
     border: 2px solid #c39b7ed1;
     box-sizing: border-box;
 }
