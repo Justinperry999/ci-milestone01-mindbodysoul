@@ -124,4 +124,13 @@ footer {
     overflow: hidden;
 }
 
-.column1 {}
+#mind-background div {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 33.33%;
+    height: 800px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid #c39b7ed1;
+    box-sizing: border-box;
+}
