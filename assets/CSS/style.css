@@ -114,3 +114,14 @@ footer {
     color: #c68c53;
     transition: 0.4s;
 }
+
+#mind-background {
+    background-image: url(../Images/keegan-houser--Q_t4SCN8c4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.column1 {}
