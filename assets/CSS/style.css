@@ -55,6 +55,7 @@ header {
 #navigation a:hover {
     color: #c68c53;
     transition: 0.4s;
+    border-bottom: 1px solid #c68c53
 }
 
 #yoga-image {
@@ -107,4 +108,9 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #333333;
+}
+
+.social-media i:hover {
+    color: #c68c53;
+    transition: 0.4s;
 }
