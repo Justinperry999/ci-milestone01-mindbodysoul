@@ -139,9 +139,9 @@ footer {
 #mind-background div {
     background-color: rgba(0, 0, 0, 0.6);
     width: 33.33%;
-    height: 1000px;
+    height: 1050px;
     float: left;
-    padding: 30px;
+    padding: 30px 40px 30px 40px;
     text-align: left;
     border: 2px solid #c39b7ed1;
     box-sizing: border-box;
@@ -159,9 +159,9 @@ footer {
 #body-background div {
     background-color: rgba(0, 0, 0, 0.6);
     width: 33.33%;
-    height: 1000px;
+    height: 1050px;
     float: left;
-    padding: 30px 20px 20px 30px;
+    padding: 30px 40px 30px 40px;
     text-align: left;
     border: 2px solid #c39b7ed1;
     box-sizing: border-box;
@@ -179,9 +179,9 @@ footer {
 #soul-background div {
     background-color: rgba(0, 0, 0, 0.6);
     width: 33.33%;
-    height: 900px;
+    height: 1050px;
     float: left;
-    padding: 30px 20px 20px 30px;
+    padding: 30px 40px 30px 40px;
     text-align: left;
     border: 2px solid #c39b7ed1;
     box-sizing: border-box;
@@ -196,5 +196,11 @@ footer {
     top: 50%;
     left: 50%;
     max-width: 100%;
-    margin-left: 22%;
+    float: left;
+    padding: 0 25px 0 0;
+}
+
+p>a {
+    Color: #c39b7ed1;
+    font-weight: bold;
 }
