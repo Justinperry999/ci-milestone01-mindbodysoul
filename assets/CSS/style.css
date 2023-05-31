@@ -137,7 +137,7 @@ footer {
 }
 
 #mind-background div {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 33.33%;
     height: 1050px;
     float: left;
@@ -176,7 +176,7 @@ footer {
     overflow: hidden;
 }
 
-#soul-background div {
+#soul-background>div {
     background-color: rgba(0, 0, 0, 0.6);
     width: 33.33%;
     height: 1050px;
@@ -185,6 +185,7 @@ footer {
     text-align: left;
     border: 2px solid #c39b7ed1;
     box-sizing: border-box;
+    position: relative;
 }
 
 #proud {
@@ -203,4 +204,31 @@ footer {
 p>a {
     Color: #c39b7ed1;
     font-weight: bold;
+}
+
+#top-box {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    border-bottom: 2px solid #c39b7ed1;
+    float: left;
+    padding: 30px 40px 30px 40px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+#bottom-box {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    border-top: 2px solid #c39b7ed1;
+    float: left;
+    padding: 30px 40px 30px 40px;
+    text-align: left;
+    box-sizing: border-box;
+
 }
