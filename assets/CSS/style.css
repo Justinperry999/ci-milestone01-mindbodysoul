@@ -39,7 +39,7 @@ header {
 }
 
 #logo {
-    color: #333333;
+    color: #222222;
     text-align: center;
     width: 100%;
     font-size: 200%;
@@ -234,7 +234,7 @@ p>a {
 
 }
 
-div.circle-one {
+.circle-one {
     width: 250px;
     height: 250px;
     border: 2px solid #c39b7ed1;
@@ -242,9 +242,10 @@ div.circle-one {
     float: right;
     position: absolute;
     right: 30px;
+
 }
 
-div.circle-two {
+.circle-two {
     width: 250px;
     height: 250px;
     border: 2px solid #c39b7ed1;
@@ -254,7 +255,7 @@ div.circle-two {
     position: absolute;
 }
 
-div.circle-three {
+.circle-three {
     width: 250px;
     height: 250px;
     border: 2px solid #c39b7ed1;
