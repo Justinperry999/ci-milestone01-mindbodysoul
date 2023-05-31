@@ -9,6 +9,7 @@
 body {
     font-family: 'roboto slab', sans-serif;
     font-weight: 300;
+    font-size: larger;
     color: #f2f2f2;
     width: 100%;
 }
@@ -139,7 +140,7 @@ footer {
 #mind-background div {
     background-color: rgba(0, 0, 0, 0.7);
     width: 33.33%;
-    height: 1050px;
+    height: 1300px;
     float: left;
     padding: 30px 40px 30px 40px;
     text-align: left;
@@ -159,7 +160,7 @@ footer {
 #body-background div {
     background-color: rgba(0, 0, 0, 0.6);
     width: 33.33%;
-    height: 1050px;
+    height: 1300px;
     float: left;
     padding: 30px 40px 30px 40px;
     text-align: left;
@@ -179,7 +180,7 @@ footer {
 #soul-background>div {
     background-color: rgba(0, 0, 0, 0.6);
     width: 33.33%;
-    height: 1050px;
+    height: 1300px;
     float: left;
     padding: 30px 40px 30px 40px;
     text-align: left;
@@ -231,4 +232,35 @@ p>a {
     text-align: left;
     box-sizing: border-box;
 
+}
+
+div.circle-one {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #c39b7ed1;
+    border-radius: 50%;
+    float: right;
+    position: absolute;
+    right: 30px;
+}
+
+div.circle-two {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #c39b7ed1;
+    border-radius: 50%;
+    float: left;
+    top: 42%;
+    position: absolute;
+}
+
+div.circle-three {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #c39b7ed1;
+    border-radius: 50%;
+    float: right;
+    bottom: 40px;
+    position: absolute;
+    right: 30px;
 }
