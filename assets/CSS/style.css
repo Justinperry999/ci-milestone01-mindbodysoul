@@ -241,6 +241,7 @@ p>a {
     border-radius: 50%;
     float: right;
     position: absolute;
+    top: 100px;
     right: 30px;
 
 }
@@ -264,4 +265,8 @@ p>a {
     bottom: 40px;
     position: absolute;
     right: 30px;
+}
+
+.relative {
+    position: relative;
 }
