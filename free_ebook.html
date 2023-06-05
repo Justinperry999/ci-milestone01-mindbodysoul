@@ -37,7 +37,74 @@
 
     <section>
         <div id="yoga-image">
+            <div id="form-box">
+                <h2>Complete the form below for a free Ebook!</h2>
 
+                <form action="https://formdump.codeinstitute.net/" method="POST">
+
+                    <label for="title">Title: </label>
+                    <input list="title-list" id="title" type="text" name="title">
+                    <datalist id="title-list">
+                        <option value="Mr"></option>
+                        <option value="Miss"></option>
+                        <option value="Ms"></option>
+                        <option value="Mrs"></option>
+                        <option value="dr"></option>
+                    </datalist>
+
+                    <label for="first-name">First Name: </label>
+                    <input id="first-name" type="text" name="first-name">
+
+                    <label for="surname">Surname: </label>
+                    <input id="surname" type="text" name="surname">
+
+                    <br><br>
+
+                    <label for="email-address">Email Address: </label>
+                    <input id="email-address" type="email" name="email-address">
+
+                    <br><br>
+
+                    <p>How useful did you find the information on this website:</p>
+                    <input id="not-very-useful" type="radio" name="how-useful-was-the-information"
+                        value="not-very-useful">
+                    <label for="not-very-useful">Not Very Useful</label>
+                    <input id="relatively-useful" type="radio" name="how-useful-was-the-information"
+                        value="relatively-useful">
+                    <label for="relatively-useful">Relatively Useful</label>
+                    <input id="fairly-useful" type="radio" name="how-useful-was-the-information" value="fairly-useful">
+                    <label for="fairly-useful">Fairly Useful</label>
+                    <input id="extremely-useful" type="radio" name="how-useful-was-the-information"
+                        value="extremely-useful">
+                    <label for="extremely-useful">Extremely Useful</label>
+
+                    <br><br>
+
+                    <p>How likely would you recommend this site to a friend:</p>
+                    <input id="not-very-likely" type="radio" name="how-likely-are-you-to-recommend"
+                        value="not-very-likely">
+                    <label for="not-very-likely">Not Very Likely</label>
+                    <input id="relatively-likely" type="radio" name="how-likely-are-you-to-recommend"
+                        value="relatively-likely">
+                    <label for="relatively-likely">Relatively Likely</label>
+                    <input id="fairly-likely" type="radio" name="how-likely-are-you-to-recommend" value="fairly-likely">
+                    <label for="fairly-likely">Fairly Likely</label>
+                    <input id="extremely-likley" type="radio" name="how-likely-are-you-to-recommend"
+                        value="extremely-likely">
+                    <label for="extremely-likely">Extremely Likely</label>
+
+                    <br><br>
+
+                    <label for="text-area">What information would you like to be included in future ebooks/informational
+                        leaflets? </label>
+
+                    <textarea id="text-area" name="information-to-include" rows="9" cols="100"></textarea>
+                    <br><br>
+                    <button type="submit">Send Me A Free Ebook!</button>
+
+
+                </form>
+            </div>
         </div>
     </section>
 
