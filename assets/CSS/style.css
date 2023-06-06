@@ -177,10 +177,10 @@ footer {
     overflow: hidden;
 }
 
-#soul-background div {
+#soul-background>div {
     background-color: rgba(0, 0, 0, 0.6);
     width: 33.33%;
-    min-height: 1300px;
+    height: 1300px;
     float: left;
     padding: 30px 40px 30px 40px;
     text-align: left;
@@ -277,8 +277,8 @@ p>a {
 }
 
 #form-box {
-    width: 900px;
-    height: 550px;
+    max-width: 900px;
+    height: 600px;
     padding: 20px 30px 20px 30px;
     background-color: rgb(0, 0, 0, 0.7);
     top: 320px;
@@ -289,19 +289,35 @@ p>a {
     border: 2px solid #c39b7ed1;
 }
 
+#text-area {
+    width: 700px;
+    height: 150px;
+}
+
 /* Media queries */
 
-@media screen and (max-width: 1150px) {}
-
-@media screen and (max-width: 600px) {
-
-    header {
-        min-height: 150px;
-    }
+@media screen and (max-width: 1150px) {
 
     #navigation a {
         display: inline;
     }
+}
+
+@media screen and (max-width: 1000px) {
+
+    #form-box {
+        top: 280px;
+        width: 400px;
+        margin-left: -200px;
+        height: 800px;
+    }
+
+    #text-area {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 800px) {
 
     #mind-background div {
         width: 100%;
@@ -317,3 +333,41 @@ p>a {
         width: 100%;
         min-height: 1300px;
     }
+
+    @media screen and (max-width: 550px) {
+
+        #yoga-image {
+            height: 1000px;
+        }
+
+        #form-box {
+            width: 300px;
+            margin-left: -150px;
+            height: 900px;
+        }
+
+        #text-area {
+            width: 300px;
+        }
+    }
+
+    @media screen and (max-width: 390px) {
+        #logo {
+            width: 100%;
+            font-size: 150%;
+        }
+
+        #yoga-image {
+            height: 1100px;
+        }
+
+        #form-box {
+            left: 0;
+            margin-left: 0;
+            width: 250px;
+            height:1000px;
+        }
+
+        #text-area {
+            width: 200px;
+        }
