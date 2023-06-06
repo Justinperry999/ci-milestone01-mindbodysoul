@@ -140,7 +140,7 @@ footer {
 #mind-background div {
     background-color: rgba(0, 0, 0, 0.7);
     width: 33.33%;
-    height: 1300px;
+    min-height: 1300px;
     float: left;
     padding: 30px 40px 30px 40px;
     text-align: left;
@@ -160,7 +160,7 @@ footer {
 #body-background div {
     background-color: rgba(0, 0, 0, 0.6);
     width: 33.33%;
-    height: 1300px;
+    min-height: 1300px;
     float: left;
     padding: 30px 40px 30px 40px;
     text-align: left;
@@ -177,16 +177,21 @@ footer {
     overflow: hidden;
 }
 
-#soul-background>div {
+#soul-background div {
     background-color: rgba(0, 0, 0, 0.6);
     width: 33.33%;
-    height: 1300px;
+    min-height: 1300px;
     float: left;
     padding: 30px 40px 30px 40px;
     text-align: left;
     border: 2px solid #c39b7ed1;
     box-sizing: border-box;
     position: relative;
+}
+
+#meditation-video {
+    width: 550px;
+    height: 300px;
 }
 
 #proud {
@@ -283,3 +288,32 @@ p>a {
     position: absolute;
     border: 2px solid #c39b7ed1;
 }
+
+/* Media queries */
+
+@media screen and (max-width: 1150px) {}
+
+@media screen and (max-width: 600px) {
+
+    header {
+        min-height: 150px;
+    }
+
+    #navigation a {
+        display: inline;
+    }
+
+    #mind-background div {
+        width: 100%;
+        min-height: 1300px;
+    }
+
+    #body-background div {
+        width: 100%;
+        min-height: 1300px;
+    }
+
+    #soul-background div {
+        width: 100%;
+        min-height: 1300px;
+    }
