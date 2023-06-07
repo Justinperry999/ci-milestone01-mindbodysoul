@@ -32,6 +32,8 @@ h4 {
     text-transform: uppercase;
 }
 
+/* Header*/
+
 header {
     background-color: #c39b7ed1;
     height: 150px;
@@ -72,6 +74,8 @@ header {
     border-bottom: 1px solid #c68c53
 }
 
+/*Main Section*/
+
 #yoga-image {
     width: 100%;
     height: 900px;
@@ -102,6 +106,8 @@ header {
     text-transform: uppercase;
     padding-bottom: 20px;
 }
+
+/* Footer*/
 
 footer {
     height: 100%;
@@ -180,7 +186,7 @@ footer {
 #soul-background>div {
     background-color: rgba(0, 0, 0, 0.6);
     width: 33.33%;
-    height: 1300px;
+    height: 1500px;
     float: left;
     padding: 30px 40px 30px 40px;
     text-align: left;
@@ -239,42 +245,79 @@ p>a {
 
 }
 
-.circle-one {
-    width: 250px;
-    height: 250px;
-    border: 2px solid #c39b7ed1;
-    border-radius: 50%;
-    float: right;
-    position: absolute;
-    top: 100px;
-    right: 30px;
+.container-one {
+    display: flex;
 
+}
+
+.textbox-one {
+    flex: 2;
+
+}
+
+.circle-div-one {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #c39b7ed1;
+    border-radius: 50%;
+    flex: 1;
+}
+
+.circle-one {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.container-two {
+    display: flex;
+    align-items: center
+}
+
+.textbox-two {
+    flex: 1;
+}
+
+.circle-div-two {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #c39b7ed1;
+    border-radius: 50%;
+    flex: 1;
+    margin: 20px 20px 20px 0;
 }
 
 .circle-two {
-    width: 250px;
-    height: 250px;
-    border: 2px solid #c39b7ed1;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    float: left;
-    top: 42%;
-    position: absolute;
+}
+
+.container-three {
+    display: flex;
+}
+
+.textbox-three {
+    flex: 2;
+}
+
+.circle-div-three {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #c39b7ed1;
+    border-radius: 50%;
+    flex: 1;
 }
 
 .circle-three {
-    width: 250px;
-    height: 250px;
-    border: 2px solid #c39b7ed1;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    float: right;
-    bottom: 40px;
-    position: absolute;
-    right: 30px;
 }
 
-.relative {
+/*.relative {
     position: relative;
-}
+}*/
 
 #form-box {
     max-width: 800px;
