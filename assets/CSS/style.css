@@ -66,6 +66,7 @@ header {
     letter-spacing: 3px;
     color: #333333;
 
+
 }
 
 #navigation a:hover {
@@ -105,33 +106,6 @@ header {
     letter-spacing: 3px;
     text-transform: uppercase;
     padding-bottom: 20px;
-}
-
-/* Footer*/
-
-footer {
-    height: 100%;
-    background-color: #c39b7ed1;
-}
-
-.social-media {
-    text-align: center;
-}
-
-.social-media li {
-    display: inline;
-}
-
-.social-media i {
-    font-size: 200%;
-    margin: 1%;
-    padding: 5%;
-    color: #333333;
-}
-
-.social-media i:hover {
-    color: #c68c53;
-    transition: 0.4s;
 }
 
 #mind-background {
@@ -186,7 +160,7 @@ footer {
 #soul-background>div {
     background-color: rgba(0, 0, 0, 0.6);
     width: 33.33%;
-    height: 1500px;
+    height: 1600px;
     float: left;
     padding: 30px 40px 30px 40px;
     text-align: left;
@@ -198,6 +172,19 @@ footer {
 #meditation-video {
     width: 550px;
     height: 300px;
+}
+
+li {
+    padding: 10px;
+}
+
+div>li {
+    list-style-type: none;
+}
+
+
+ul {
+    list-style-type: none;
 }
 
 #proud {
@@ -315,9 +302,34 @@ p>a {
     border-radius: 50%;
 }
 
-/*.relative {
-    position: relative;
-}*/
+/* Footer*/
+
+footer {
+    height: 100%;
+    background-color: #c39b7ed1;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #333333;
+}
+
+.social-media i:hover {
+    color: #c68c53;
+    transition: 0.4s;
+}
+
+
 
 /*Free Ebook Form*/
 
@@ -427,38 +439,40 @@ p>a {
         min-width: 120px;
         padding: 0 25px;
     }
+}
 
-    @media screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
 
 
-        #form-box {
-            width: 300px;
-            margin-left: -150px;
-            height: 900px;
-        }
-
-        #text-area {
-            width: 300px;
-        }
+    #form-box {
+        width: 300px;
+        margin-left: -150px;
+        height: 900px;
     }
 
-    @media screen and (max-width: 390px) {
-        #logo {
-            width: 100%;
-            font-size: 150%;
-        }
+    #text-area {
+        width: 300px;
+    }
+}
 
-        #yoga-image {
-            height: 1150px;
-        }
+@media screen and (max-width: 390px) {
+    #logo {
+        width: 100%;
+        font-size: 150%;
+    }
 
-        #form-box {
-            left: 0;
-            margin-left: 0;
-            width: 250px;
-            height: 1050px;
-        }
+    #yoga-image {
+        height: 1150px;
+    }
 
-        #text-area {
-            width: 200px;
-        }
+    #form-box {
+        left: 0;
+        margin-left: 0;
+        width: 250px;
+        height: 1050px;
+    }
+
+    #text-area {
+        width: 200px;
+    }
+}
