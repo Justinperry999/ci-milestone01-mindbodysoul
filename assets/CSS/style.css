@@ -88,14 +88,10 @@ header {
 #about {
     width: 350px;
     height: 650px;
-
     padding: 20px 30px 20px 30px;
-
     background-color: rgb(0, 0, 0, 0.7);
-
     top: 50px;
     left: 250px;
-
     position: absolute;
 }
 
@@ -120,7 +116,7 @@ header {
 #mind-background div {
     background-color: rgba(0, 0, 0, 0.7);
     width: 33.33%;
-    min-height: 1300px;
+    height: 1450px;
     float: left;
     padding: 30px 40px 30px 40px;
     text-align: left;
@@ -140,7 +136,7 @@ header {
 #body-background div {
     background-color: rgba(0, 0, 0, 0.6);
     width: 33.33%;
-    height: 1300px;
+    height: 1500px;
     float: left;
     padding: 30px 40px 30px 40px;
     text-align: left;
@@ -170,7 +166,12 @@ header {
 }
 
 #meditation-video {
-    width: 550px;
+    width: 100%;
+    height: 300px;
+}
+
+#yoga-video {
+    width: 100%;
     height: 300px;
 }
 
@@ -393,30 +394,34 @@ footer {
 
 /* Media queries */
 
+@media screen and (max-width: 1600px) {
+
+    #body-background div {
+        height: 1650px;
+    }
+}
+
 @media screen and (max-width: 1350px) {
 
-    /*#flex-container {
-        display: flex;
-        flex-direction: column;
+    #mind-background div {
+        height: 1650px;
     }
 
-    #top-box {
-        width: 100%;
-        height: 50%;
-        border-bottom: none;
-        flex: 1;
+    #body-background div {
+        height: 1800px;
     }
 
-    #bottom-box {
-        width: 100%;
-        height: 50%;
-        border-top: none;
-        flex: 1;
-    }*/
+    #yoga-video {
+        height: 200px;
+    }
 
-    #soul-background div {
+    #soul-background>div {
+        height: 2150px;
+    }
+
+
+    .div-two {
         height: 100%;
-
     }
 
     .container-one,
@@ -448,19 +453,73 @@ footer {
         margin-bottom: -10px;
     }
 
+    .circle-div-two {
+        order: 2;
+    }
+
+    .textbox-two {
+        order: 1;
+    }
+
+    #meditation-video {
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width: 1220px) {
+
+    #navigation a {
+        display: inline;
+    }
+
+    #mind-background div {
+        height: 1750px;
+    }
+
+    #body-background div {
+        height: 1900px;
+    }
 }
 
 @media screen and (max-width: 1150px) {
 
-    #navigation a {
-        display: inline;
+    #soul-background>div {
+        height: 2480px;
+    }
+
+    #mind-background div {
+        height: 2000px;
+    }
+
+    #body-background div {
+        height: 2100px;
     }
 }
 
 @media screen and (max-width: 1000px) {
 
+
+    #soul-background>div {
+        height: 3150px;
+    }
+
     #yoga-image {
         height: 1000px;
+    }
+
+    #meditation-video {
+        height: 150px;
+    }
+
+    #mind-background div {
+        height: 2400px;
+        padding: 40px 25px;
+    }
+
+    #body-background div {
+        height: 2400px;
+        padding: 40px 25px;
     }
 
     #form-box {
@@ -472,6 +531,7 @@ footer {
 
     #text-area {
         width: 350px;
+        margin-left: 0;
     }
 }
 
@@ -479,17 +539,25 @@ footer {
 
     #mind-background div {
         width: 100%;
-        min-height: 1300px;
+        height: 100%;
     }
 
     #body-background div {
         width: 100%;
-        min-height: 1300px;
+        height: 100%;
     }
 
-    #soul-background div {
+    #soul-background>div {
         width: 100%;
-        min-height: 1300px;
+        height: 1750px;
+    }
+
+    #about {
+        left: 10px;
+    }
+
+    #meditation-video {
+        height: 300px;
     }
 
     .button-74 {
@@ -500,11 +568,20 @@ footer {
 
 @media screen and (max-width: 550px) {
 
+    #soul-background>div {
+        height: 2100px;
+        padding: 30px 25px;
+    }
+
+    #meditation-video {
+        height: 150px;
+    }
 
     #form-box {
         width: 300px;
-        margin-left: -150px;
-        height: 900px;
+        left: 30px;
+        margin-left: 30px;
+        height: 920px;
     }
 
     #text-area {
@@ -512,7 +589,29 @@ footer {
     }
 }
 
+@media screen and (max-width: 465px) {
+
+    header {
+        height: 200px;
+    }
+
+    #about {
+        width: 250px;
+        height: 900px;
+    }
+
+    #form-box {
+        left: 10px;
+        margin-left: 10px;
+    }
+}
+
 @media screen and (max-width: 390px) {
+
+    #soul-background>div {
+        height: 2400px;
+    }
+
     #logo {
         width: 100%;
         font-size: 150%;
@@ -523,13 +622,24 @@ footer {
     }
 
     #form-box {
-        left: 0;
-        margin-left: 0;
-        width: 250px;
+        left: 5px;
+        margin-left: 5px;
+        width: 230px;
         height: 1050px;
     }
 
     #text-area {
         width: 200px;
+        height: 100px;
+    }
+
+    .button-74 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #about {
+        left: 0;
     }
 }
