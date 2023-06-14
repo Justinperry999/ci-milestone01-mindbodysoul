@@ -1,6 +1,6 @@
 # **Body & Mind**
 
-<img src="/assets/Images/responsive-screenshot.png" alt="responsive designs">
+<img src="/assets/images/responsive-screenshot.png" alt="responsive designs">
 
 Body & Mind is an informational website helping users to live a healthier life both mentally and physically. The site is aimed to help those who feel overwhelmed with everyday life by teaching them techniques like meditation and yoga to hopefully reduce stress and anxiety.
 
@@ -21,7 +21,7 @@ Body & Mind is an informational website helping users to live a healthier life b
 
 ### **Color Scheme**
 
-The two main colors I've used for the site is a shade of <span style="color:#c39b7ed1">**brown (#c39b7ed1)**</span> and I've used <span style="color:#c68c53">**orange (#c68c53)**</span> for hover effects. For the pages I've used a contrast of dark back background image and light writing so its easily readable.
+The two main colors I've used for the site is a shade of **brown (#c39b7ed1)** and I've used **orange (#c68c53)** for hover effects. For the pages I've used a contrast of dark back background image and light writing so its easily readable.
 
 ### **Typography**
 
@@ -33,23 +33,23 @@ The main font I have used is Roboto Slab with San-Serif being the back-up font i
 
 ### Home page
 
-<img src="/assets/Images/homepage-screenshot.png" alt="home page wireframe">
+<img src="/assets/images/homepage-screenshot.png" alt="home page wireframe">
 
 ### Mind Page
 
-<img src="/assets/Images/mind-screenshot.png" alt="mind page wireframe">
+<img src="/assets/images/mind-screenshot.png" alt="mind page wireframe">
 
 ### Body Page
 
-<img src="/assets/Images/body-screenshot.png" alt="body page wireframe">
+<img src="/assets/images/body-screenshot.png" alt="body page wireframe">
 
 ### Soul Page
 
-<img src="/assets/Images/soul-screenshot.png" alt="soul page wireframe">
+<img src="/assets/images/soul-screenshot.png" alt="soul page wireframe">
 
 ### form page
 
-<img src="/assets/Images/form-screenshot.png" alt="form page wireframe">
+<img src="/assets/images/form-screenshot.png" alt="form page wireframe">
 
 ## **Features**
 
@@ -61,7 +61,7 @@ The main font I have used is Roboto Slab with San-Serif being the back-up font i
 
 ### Header
 
-<img src="/assets/Images/header.png" alt="Header">
+<img src="/assets/images/header.png" alt="Header">
 
 - The header contains the site logo which links to the home page.
 
@@ -69,13 +69,13 @@ The main font I have used is Roboto Slab with San-Serif being the back-up font i
 
 ### Footer
 
-<img src="/assets/Images/footer.png" alt="Footer">
+<img src="/assets/images/footer.png" alt="Footer">
 
 - The footer contains links to social media platforms. Like the header the social media links also have a hover effect of the same color.
 
 ### Landing Page
 
-<img src="/assets/Images/main-screen.png" alt="Main page">
+<img src="/assets/images/main-screen.png" alt="Main page">
 
 - For the main image on the landing page I've used a women meditating on wooden decking. This matches the brown and orange color scheme of the site and represents peace and mindfulness matching the sites goals.
 
@@ -83,7 +83,7 @@ The main font I have used is Roboto Slab with San-Serif being the back-up font i
 
 ### Mind Page
 
-<img src="/assets/Images/mind-screen.png" alt="Mind page">
+<img src="/assets/images/mind-screen.png" alt="Mind page">
 
 - For the background image I used a man sitting on a rock peacefully looking out to sea. It has a calming feel to it. I have made the background image darker so that the writing can be seen more clearly.
 
@@ -93,7 +93,7 @@ The main font I have used is Roboto Slab with San-Serif being the back-up font i
 
 ### Body Page
 
-<img src="/assets/Images/body-screen.png" alt="Body page">
+<img src="/assets/images/body-screen.png" alt="Body page">
 
 - Background image of a women doing yoga which fits really well in the body page. Again I've made the background image darker for better contrast.
 
@@ -103,7 +103,7 @@ The main font I have used is Roboto Slab with San-Serif being the back-up font i
 
 ### Soul Page
 
-<img src="/assets/Images/soul-screen.png" alt="Soul page">
+<img src="/assets/images/soul-screen.png" alt="Soul page">
 
 - Same layout as the other two pages making the background image darker for better contrast.
 
@@ -113,7 +113,7 @@ The main font I have used is Roboto Slab with San-Serif being the back-up font i
 
 ### Form
 
-<img src="/assets/Images/form-screen.png" alt="Form page">
+<img src="/assets/images/form-screen.png" alt="Form page">
 
 - The form allows user to recieve a free ebook once completed.
 
@@ -192,19 +192,19 @@ The main font I have used is Roboto Slab with San-Serif being the back-up font i
 
 - Being my first project I came across numerous errors (shown below) when testing my HTML code through the official W3C validator.
 
-    <img src="/assets/Images/errors-screenshot-one.png" alt="errors page W3C validator">
-    <img src="/assets/Images/errors-screenshot-two.png" alt="errors page W3C validator">
-    <img src="/assets/Images/errors-screenshot-three.png" alt="errors page W3C validator">
+    <img src="/assets/images/errors-screenshot-one.png" alt="errors page W3C validator">
+    <img src="/assets/images/errors-screenshot-two.png" alt="errors page W3C validator">
+    <img src="/assets/images/errors-screenshot-three.png" alt="errors page W3C validator">
 
 - All errors were debugged and when passed through the W3C validator, there were no errors found.
 
-    <img src="/assets/Images/noerrors-screenshot.png" alt="No errors page W3C validator">
+    <img src="/assets/images/noerrors-screenshot.png" alt="No errors page W3C validator">
 
 #### CSS
 
 -No errors were found when passing through the official (Jigsaw) validator
 
-<img src="/assets/Images/noerrorsCSS-screenshot.png" alt="No errors page CSS validator">
+<img src="/assets/images/noerrorsCSS-screenshot.png" alt="No errors page CSS validator">
 
 ### **unfixed Bugs**
 
