@@ -41,7 +41,7 @@
                 <h2>Complete the form below for a free Ebook!</h2>
                 <form action="https://formdump.codeinstitute.net/" method="POST">
                     <label class="label-align" for="title">Title: </label>
-                    <input class="title-size" list="title-list" id="title" type="text" name="title">
+                    <input class="title-size" list="title-list" id="title" type="text" name="title" required>
                     <datalist id="title-list">
                         <option value="Mr"></option>
                         <option value="Miss"></option>
@@ -51,17 +51,17 @@
                     </datalist>
                     <br>
                     <label class="label-align" for="first-name">First Name: </label>
-                    <input id="first-name" type="text" name="first-name">
+                    <input id="first-name" type="text" name="first-name" required>
                     <br>
                     <label class="label-align" for="surname">Surname: </label>
-                    <input id="surname" type="text" name="surname">
+                    <input id="surname" type="text" name="surname" required>
                     <br>
                     <label class="label-align" for="email-address">Email: </label>
-                    <input id="email-address" type="email" name="email-address">
+                    <input id="email-address" type="email" name="email-address" required>
                     <br><br>
                     <p>How useful did you find the information on this website:</p>
                     <input id="not-very-useful" type="radio" name="how-useful-was-the-information"
-                        value="not-very-useful">
+                        value="not-very-useful" required>
                     <label for="not-very-useful">Not Very Useful</label>
                     <br>
                     <input id="relatively-useful" type="radio" name="how-useful-was-the-information"
@@ -77,7 +77,7 @@
                     <br><br>
                     <p>How likely would you recommend this site to a friend:</p>
                     <input id="not-very-likely" type="radio" name="how-likely-are-you-to-recommend"
-                        value="not-very-likely">
+                        value="not-very-likely" required>
                     <label for="not-very-likely">Not Very Likely</label>
                     <br>
                     <input id="relatively-likely" type="radio" name="how-likely-are-you-to-recommend"
@@ -93,7 +93,7 @@
                     <br><br>
                     <label for="text-area">What information would you like to be included in future ebooks/informational
                         leaflets? </label>
-                    <textarea id="text-area" name="information-to-include"></textarea>
+                    <textarea id="text-area" name="information-to-include" required></textarea>
                     <br>
                     <button class="button-74" type="submit">Send Me A Free Ebook!</button>
                 </form>

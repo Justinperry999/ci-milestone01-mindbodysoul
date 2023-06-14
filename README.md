@@ -174,3 +174,89 @@ The main font I have used is Roboto Slab with San-Serif being the back-up font i
 ## **Testing**
 
 ---
+
+### **Tools Testing**
+
+- Chrome Dev Tools
+
+  - I used Chrome Dev Tools during the development phase to find and change HTML elements and CSS styles.
+  - I also used Chrome Dev Tools to find certian code which required debugging and correcting.
+
+- Responsive
+  - Chrome Dev Tools was used to test for responsiveness thoughout the site.
+  - Am I Responsive was use to test the site was responsive across different devices.
+
+### **Validator Testing**
+
+#### HTML
+
+- Being my first project I came across numerous errors (shown below) when testing my HTML code through the official W3C validator.
+
+    <img src="/assets/Images/errors-screenshot-one.png" alt="errors page W3C validator">
+    <img src="/assets/Images/errors-screenshot-two.png" alt="errors page W3C validator">
+    <img src="/assets/Images/errors-screenshot-three.png" alt="errors page W3C validator">
+
+- All errors were debugged and when passed through the W3C validator, there were no errors found.
+
+    <img src="/assets/Images/noerrors-screenshot.png" alt="No errors page W3C validator">
+
+#### CSS
+
+-No errors were found when passing through the official (Jigsaw) validator
+
+<img src="/assets/Images/noerrorsCSS-screenshot.png" alt="No errors page CSS validator">
+
+### **unfixed Bugs**
+
+### **Manual Testing**
+
+- Browser Compatibility
+
+  - The website has been tested on the following browsers:
+
+    - Microsoft Edge
+      No responsiveness nor functionality issues.
+      Pictures on page do not show...
+
+    - Google Chrome
+      No responsiveness nor functionality issues.
+      Pictures on page do not show...
+
+    - Safari
+
+    - Mozilla Firefox
+
+- Common Elements Testing
+
+  - Header
+
+    - The main logo when clicked, navigates to the landing page.
+
+  - Navigation Bar
+
+    - Each link in the navigation page navigates to the desired page.
+    - When hovering the mouse over each link a hover and underline effect will highlight each link for the user.
+
+  - Footer
+
+    - Each link in the footer will open up the selected social media page in a new window.
+    - When hovering the mouse over each link a hover ffect will highlight each link for the user.
+
+  - Informational Pages
+
+    - Youtube videos when clicked on will play the video.
+
+  - Free Ebook Page
+    - Title input creates a dropdown box when clicked.
+    - When hovering over the submit button a hover effect will change the button white.
+    - When filling out the form, the user is required to complete all fields before submitting.
+
+## **Deployment**
+
+- The site was deployed to GitHub pages. The steps that i used to deploy are as follows:
+
+  - In the GitHub repository, navigate to the Settings tab.
+  - From the side menu, select Pages.
+  - On the Github pages screen, under branch click on Main and Save, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+  - The live link can be found here - https://justinperry999.github.io/ci-milestone01-mindbodysoul/
