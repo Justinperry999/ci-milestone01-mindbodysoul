@@ -202,7 +202,7 @@ The main font I have used is Roboto Slab with San-Serif being the back-up font i
 
 #### CSS
 
--No errors were found when passing through the official (Jigsaw) validator
+- No errors were found when passing through the official (Jigsaw) validator
 
 <img src="/assets/images/noerrorsCSS-screenshot.png" alt="No errors page CSS validator">
 
@@ -212,21 +212,21 @@ The main font I have used is Roboto Slab with San-Serif being the back-up font i
 
 - Browser Compatibility
 
-  - The website has been tested on the following browsers:
-
-    - Microsoft Edge
-      No responsiveness nor functionality issues.
-      Pictures on page do not show...
-
-    - Google Chrome
-      No responsiveness nor functionality issues.
-      Pictures on page do not show...
-
-    - Safari
-
-    - Mozilla Firefox
+    | **Browser** | **Outcome** | **Pass/Fail** |
+    |---|---|---|
+    | Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass |
+    | Google Chrome | No appearance, responsiveness nor functionality issues. | Pass | 
+    | Safari | No appearance, responsiveness nor functionality issues. | Pass |
+    | Mozilla Firefox | No appearance, responsiveness nor functionality issues. | Pass |
 
 - Common Elements Testing
+
+    | **Browser** | **Outcome** | **Pass/Fail** |
+    | Header | The main logo when clicked, navigates to the landing page. | Pass |
+    | Navigaton Bar | Each link in the navigation page navigates to the desired page. When hovering the mouse over each link a hover and underline effect will highlight each link for the user. | Pass |    
+    | Footer
+    | Informational pages
+    | Free ebook page
 
   - Header
 
