@@ -393,6 +393,13 @@ footer {
 
 /* Media queries */
 
+@media screen and (max-width: 1700px) {
+
+    #soul-background>div {
+        height: 2000px;
+    }
+}
+
 @media screen and (max-width: 1600px) {
 
     #body-background div {

@@ -8,8 +8,6 @@ Body & Mind is an informational website helping users to live a healthier life b
 
 ## **User Exerience (UX)**
 
----
-
 ### **Project Goals**
 
 <ul>
@@ -52,8 +50,6 @@ The main font I have used is Roboto Slab with San-Serif being the back-up font i
 <img src="/assets/images/form-screenshot.png" alt="form page wireframe">
 
 ## **Features**
-
----
 
 - To be responsive across all platforms.
 
@@ -119,8 +115,6 @@ The main font I have used is Roboto Slab with San-Serif being the back-up font i
 
 ## **Technologies Used**
 
----
-
 ### Languages Used
 
 - HTML5
@@ -172,8 +166,6 @@ The main font I have used is Roboto Slab with San-Serif being the back-up font i
   - W3C CSS Validator was used to validate my CSS code.
 
 ## **Testing**
-
----
 
 ### **Tools Testing**
 
@@ -238,8 +230,6 @@ The main font I have used is Roboto Slab with San-Serif being the back-up font i
 
 ## **Deployment**
 
----
-
 - The site was deployed to GitHub pages. The steps that I used to deploy are as follows:
 
   - In the GitHub repository, navigate to the Settings tab.
@@ -249,8 +239,6 @@ The main font I have used is Roboto Slab with San-Serif being the back-up font i
   - The live link can be found here - https://justinperry999.github.io/ci-milestone01-mindbodysoul/
 
   ## **Credits**
-
----
 
 ### Content
 
