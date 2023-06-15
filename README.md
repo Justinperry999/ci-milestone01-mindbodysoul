@@ -206,57 +206,77 @@ The main font I have used is Roboto Slab with San-Serif being the back-up font i
 
 <img src="/assets/images/noerrorsCSS-screenshot.png" alt="No errors page CSS validator">
 
-### **unfixed Bugs**
-
 ### **Manual Testing**
 
 - Browser Compatibility
 
-    | **Browser** | **Outcome** | **Pass/Fail** |
-    |---|---|---|
-    | Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass |
-    | Google Chrome | No appearance, responsiveness nor functionality issues. | Pass | 
-    | Safari | No appearance, responsiveness nor functionality issues. | Pass |
-    | Mozilla Firefox | No appearance, responsiveness nor functionality issues. | Pass |
+  | **Browser**     | **Outcome**                                             | **Pass/Fail** |
+  | --------------- | ------------------------------------------------------- | ------------- |
+  | Microsoft Edge  | No appearance, responsiveness nor functionality issues. | Pass          |
+  | Google Chrome   | No appearance, responsiveness nor functionality issues. | Pass          |
+  | Safari          | No appearance, responsiveness nor functionality issues. | Pass          |
+  | Mozilla Firefox | No appearance, responsiveness nor functionality issues. | Pass          |
 
 - Common Elements Testing
 
-    | **Browser** | **Outcome** | **Pass/Fail** |
-    | Header | The main logo when clicked, navigates to the landing page. | Pass |
-    | Navigaton Bar | Each link in the navigation page navigates to the desired page. When hovering the mouse over each link a hover and underline effect will highlight each link for the user. | Pass |    
-    | Footer
-    | Informational pages
-    | Free ebook page
+  - General
 
-  - Header
+    | **Browser**        | **Outcome**                                                                                   | **Pass/Fail** |
+    | ------------------ | --------------------------------------------------------------------------------------------- | ------------- |
+    | Header             | The main logo when clicked, navigates to the landing page.                                    | Pass          |
+    | Navigaton Bar      | Each link navigates to the desired page and hover/underline effect work as expected.          | Pass          |
+    | Social Media Links | links open up the selected social media page in a new window. Hover effect works as expected. | Pass          |
+    | Videos             | All videos play when clicked.                                                                 | Pass          |
 
-    - The main logo when clicked, navigates to the landing page.
+  - Free ebook page
 
-  - Navigation Bar
-
-    - Each link in the navigation page navigates to the desired page.
-    - When hovering the mouse over each link a hover and underline effect will highlight each link for the user.
-
-  - Footer
-
-    - Each link in the footer will open up the selected social media page in a new window.
-    - When hovering the mouse over each link a hover ffect will highlight each link for the user.
-
-  - Informational Pages
-
-    - Youtube videos when clicked on will play the video.
-
-  - Free Ebook Page
-    - Title input creates a dropdown box when clicked.
-    - When hovering over the submit button a hover effect will change the button white.
-    - When filling out the form, the user is required to complete all fields before submitting.
+    | **Browser**   | **Outcome**                                                | **Pass/Fail** |
+    | ------------- | ---------------------------------------------------------- | ------------- |
+    | Form          | user is required to complete all fields before submitting. | Pass          |
+    | Title input   | Creates a dropdown box when clicked.                       | Pass          |
+    | Submit Button | Hover effect will change the button white.                 | Pass          |
 
 ## **Deployment**
 
-- The site was deployed to GitHub pages. The steps that i used to deploy are as follows:
+---
+
+- The site was deployed to GitHub pages. The steps that I used to deploy are as follows:
 
   - In the GitHub repository, navigate to the Settings tab.
   - From the side menu, select Pages.
   - On the Github pages screen, under branch click on Main and Save, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
   - The live link can be found here - https://justinperry999.github.io/ci-milestone01-mindbodysoul/
+
+  ## **Credits**
+
+---
+
+### Content
+
+- Research
+  - https://purethoughts.co.uk/blogs/pursuit-of-pause
+  - https://www.bhf.org.uk/informationsupport/support/healthy-living/staying-active
+  - https://www.yogabasics.com/
+
+### Media
+
+- Youtube Videos
+
+  - Yoga For Beginners - The Basics - Yoga With Adriene by Yoga With Adriene
+  - 10-Minute Meditation For Beginners by Goodful
+
+- Unsplash
+  - Home and Form page background image created by Jared Rice
+  - Mind page background images created by Keegan Houser
+  - Body page background images created by Ginny Rose
+  - Soul page background images created by Content Pixie
+  - "Man with dog" circular image created by Eric Ward
+  - "Woman and child" circular image created by Kenny Krosky
+  - "Man under waterfall" circular image created by Jonathan Gallegos
+
+### Code
+
+- W3Schools, Stack Overflow and CSS-Tricks were consulted on a regular basis to be able to better understand some of the code that was being implemented.
+
+- The code to apply the the circular images was found at CSS-Tricks.
